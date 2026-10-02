@@ -1,0 +1,78 @@
+[
+  {
+    "id": "35ac451498c6",
+    "asset": "url:http://127.0.0.1:8765:",
+    "vuln_type": "xss",
+    "title": "反射型 XSS 候选",
+    "severity": "medium",
+    "cvss": 0.0,
+    "confidence": "high",
+    "status": "confirmed",
+    "evidence": [
+      "[reproduce] 反射复现一致"
+    ],
+    "payload": "<svg/onload=alert(1)>",
+    "cve": null,
+    "description": "",
+    "remediation": "输出编码、CSP、HttpOnly Cookie。",
+    "created_at": 1786443179.64163,
+    "verified_at": 1786443185.655468
+  },
+  {
+    "id": "55737e733e1c",
+    "asset": "url:http://127.0.0.1:8765:",
+    "vuln_type": "xss",
+    "title": "反射型 XSS 候选",
+    "severity": "medium",
+    "cvss": 0.0,
+    "confidence": "high",
+    "status": "confirmed",
+    "evidence": [
+      "[reproduce] 反射复现一致"
+    ],
+    "payload": "\"><script>alert(1)</script>",
+    "cve": null,
+    "description": "",
+    "remediation": "输出编码、CSP、HttpOnly Cookie。",
+    "created_at": 1786443179.767779,
+    "verified_at": 1786443185.7953851
+  },
+  {
+    "id": "a1bf6f8b9e62",
+    "asset": "url:http://127.0.0.1:8765:",
+    "vuln_type": "xss",
+    "title": "反射型 XSS 候选",
+    "severity": "medium",
+    "cvss": 0.0,
+    "confidence": "high",
+    "status": "confirmed",
+    "evidence": [
+      "[reproduce] 反射复现一致"
+    ],
+    "payload": "javascript:alert(1)",
+    "cve": null,
+    "description": "",
+    "remediation": "输出编码、CSP、HttpOnly Cookie。",
+    "created_at": 1786443179.9202101,
+    "verified_at": 1786443185.933105
+  },
+  {
+    "id": "9824371be44f",
+    "asset": "url:http://127.0.0.1:8765:",
+    "vuln_type": "xss",
+    "title": "反射型 XSS 候选",
+    "severity": "medium",
+    "cvss": 0.0,
+    "confidence": "high",
+    "status": "confirmed",
+    "evidence": [
+      "[reproduce] 反射复现一致"
+    ],
+    "payload": "<img src=x onerror=alert(1)>",
+    "cve": null,
+    "description": "",
+    "remediation": "输出编码、CSP、HttpOnly Cookie。",
+    "created_at": 1786443180.0601141,
+    "verified_at": 1786443186.0738847
+  }
+]
